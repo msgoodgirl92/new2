@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0;
+	padding: 0;
+}
+.navbar-brand {
+	padding-left: 20px;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+#navbarNav a {
+	padding-right: 25px;
+	
+}
+.bg {
+	background-image: url("imgs/hero.jpg");
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+	height: 500px;
+}
+.bg p {
+	background: #31bf87;
+	padding:15px 35px 15px 35px;
+	font-weight: bold;
+}
+.work h5 {
+	color:#333;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.worh {
+	border-bottom: 1px solid #000;
+	margin-bottom: 30px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+#last {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#last h5 {
+	padding-top: 25px;
+	font-weight: bold;
+	text-transform: capitalize;
+	
+}
+#last h6 {
+	font-size: 16px;
+}
+.head {
+	font-size: 17px;
+	padding-bottom: 10px;
+	margin-right: 20px;
+}
+.heads  {
+	font-size: 15px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.row ul li a {
+	text-decoration: none;
+	color:#807F7F;
+}
+.container-fluid {
+	width:80%;
+}
+.footer {
+	background:#292828;
+}
+
+.row ul li {
+	color:#4c4c4c;
+
+}
+@media screen and (min-width : 481px) and (max-width : 768px) {
+	.col-md {
+		width:100%;
+	}
+	.col-lg-3 {
+		width:50%;
+	}
+	.last img {
+		width:100%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+	.bg p {
+		background: #000;
+	}
+	 .col-md {
+		width:100% !important;
+	}
+}
+
+
